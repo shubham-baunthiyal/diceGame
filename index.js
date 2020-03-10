@@ -64,10 +64,10 @@ dicePattern(num1, ".left-dice ");
 dicePattern(num2, ".right-dice ");
 
 if(num1 > num2){
-  document.querySelector(".result").innerHTML="Winner is Player 1";
+  document.querySelector(".result").innerHTML="Player 1 Wins";
 }
 else if(num1 < num2){
-  document.querySelector(".result").innerHTML="Winner is Player 2";
+  document.querySelector(".result").innerHTML="Player 2 Wins";
 }
 else{
   document.querySelector(".result").innerHTML="It is a Tie";
