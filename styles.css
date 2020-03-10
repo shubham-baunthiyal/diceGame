@@ -1,0 +1,95 @@
+body{
+  text-align: center;
+  background-color: #35353f;
+  color: #fff;
+  font-family: 'Bellota', cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  color: #45c398;
+  font-size: 5rem;
+  margin: 20px auto 50px;
+}
+
+h2{
+  margin: 0px;
+}
+
+.refresh{
+  display: inline-block;
+  color: black;
+  width: 200px;
+  background-color: #45c398;
+  padding: 20px;
+  border-radius: 80px;
+  text-decoration: none;
+}
+
+.refresh:hover{
+  background-color: #fff;
+  color: black;
+}
+
+.left-dice, .right-dice{
+  display: inline-block;
+  margin: 50px 80px;
+}
+
+.dice-head{
+  margin: 0px;
+  padding-bottom: 20px;
+  color: #45c398;
+  font-size: 2rem;
+}
+
+.dice{
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  background-color: #940212;
+  border-radius: 20px;
+}
+
+.dice-dot{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.dice-center{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: 20px;
+  position: absolute;
+  left:55%;
+  top: 30%;
+  z-index: +1;
+  visibility: hidden;
+}
+
+.left, .right{
+  display: inline-block;
+  background-color: inherit;
+  position: relative;
+  top: 20px;
+}
+
+.result{
+  margin: 0px;
+  font-family: 'Lobster', cursive;
+  color: #45c398;
+  font-size: 3rem;
+}
+
+footer{
+  margin-top: 20px;
+  padding: 0px;
+  visibility: hidden;
+}
